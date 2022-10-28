@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    text-align:center;
+    font-family: "roboto" , sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-platillos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-platillos figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.header{
+    height: 450px;
+    background: url(img/header\ \(1\).jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.navbar{
+    height: 63px;
+    background: #212121;
+    border-bottom: 1px dashed #d6e199;
+}
+
+.navbar a {
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 20px;
+
+}
+
+.title {
+    margin-bottom: 40px;
+    font: 60px;
+    text-transform: uppercase;
+
+}
+
+p {
+
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline block;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 80px 0;
+}
+ 
+.abo {
+    background: #ff9000;
+    color: #fff;
+
+}
+
+.abo p {
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.platillos {
+    background: #3d3f36;
+    color: #fff;
+}
+.costos {
+    background: url(img/costos.jpg) no-repeat center top;
+    color: #fff;
+    text-align: left;
+    background-size: cover;
+}
+ 
+.contain {
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.costos p {
+    max-width: 450px;
+}
+
+.ubicacion {
+    background: #3d3f36;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+.ubicacion .map img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.list-platillos figure {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+ 
+.list-platillos figure::after {
+    content: attr" ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background: #ff9000;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.list-platillos img {
+    position: relative;
+    z-index: 1;
+    background: #ff9000;
+    border-radius: 100%;
+}
+
+.list-platillos li {
+    padding: 15px 30px 15px;
+}
+
+.list-platillos figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
